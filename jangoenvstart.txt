@@ -1,0 +1,20 @@
+ref url https://www.cyberithub.com/how-to-install-virtualenv-on-ubuntu-20-04-lts-focal-fossa/
+####Step 1: Install virtualenv
+pip3 install virtualenv 
+
+####Step 2: Create a Virtual environment
+virtualenv env
+
+### Step 3: Activate or Deactivate environment
+source env/bin/activate 
+
+
+
+###### install django 
+pip install django
+
+##### create project
+django-admin startproject
+
+###### run server 
+python3 manage.py runserver
